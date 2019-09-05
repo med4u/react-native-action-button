@@ -199,13 +199,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     borderRadius: 3,
     borderWidth: StyleSheet.hairlineWidth,
-    borderColor: "#eee",
-    backgroundColor: "white",
+    borderColor: "black",
+    backgroundColor: "black",
     height: TEXT_HEIGHT
   },
   text: {
     flex: 1,
-    fontSize: 12,
-    color: "#444"
+    fontSize: 14,
+    color: "#fff"
   }
 });
