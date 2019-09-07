@@ -335,7 +335,7 @@ export default class ActionButton extends Component {
 
     setTimeout(() => {
       if (this.mounted) {
-        this.setState({ active: false, resetToken: this.state.resetToken });  
+        this.setState({ active: false, resetToken: this.state.resetToken });
       }
     }, 250);
   }
@@ -427,7 +427,8 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     top: 0,
-    backgroundColor: "transparent"
+    backgroundColor: "transparent",
+    borderRadius:40
   },
   btnText: {
     marginTop: -4,
